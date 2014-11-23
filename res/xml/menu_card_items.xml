@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menuItems>
+    <breakfast-menu>
+  <food name="Belgian Waffles" price="Rs5.95" description="Two of our famous Belgian Waffles with plenty of real maple syrup." calories="650" />
+  <food name="2Belgian Waffles" price="Rs5.95" description="Two of our famous Belgian Waffles with plenty of real maple syrup." calories="650" />
+  </breakfast-menu>
+  <lunch-menu>
+  <food name="3Belgian Waffles" price="Rs5.95" description="Two of our famous Belgian Waffles with plenty of real maple syrup." calories="650" />
+  </lunch-menu>
+  <dinner-menu>
+  <food name="4Belgian Waffles" price="Rs5.95" description="Two of our famous Belgian Waffles with plenty of real maple syrup." calories="650" />
+</dinner-menu>
+    
+</menuItems>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- textChatHistory table schema -->
+<text_chat_history_items>
+    <text_chat_list>
+		<text_chat mobileNum="123" time="11/22/2014 12:18 PM" text="have idli"/>
+		<text_chat mobileNum="456" time="11/22/2014 12:30 PM" text="idli 3"/>
+		<text_chat mobileNum="789" time="11/22/2014 12:45 PM" text="vada"/>
+		</text_chat_list>
+</text_chat_history_items>

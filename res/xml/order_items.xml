@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Order table schema -->
+<orderItems>
+    <orderList>
+		<order mobileNum="123" orderNum="001" orderDetails="Two of our famous Belgian Waffles with plenty of real maple syrup." orderTime="11/22/2014 12:18 PM" orderStatus="open"/>
+		<order mobileNum="456" orderNum="002" orderDetails="Two plate MasalaDosa" orderTime="11/22/2014 12:30 PM" orderStatus="open"/>
+		<order mobileNum="789" orderNum="003" orderDetails="Two Mexicon Corn Veg Pizaa." orderTime="11/22/2014 12:45 PM" orderStatus="open"/>
+		</orderList>
+</orderItems>

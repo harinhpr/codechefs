@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="vertical"
+      >
+   
+<GridLayout     
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rowCount="3"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    tools:context=".GridXMLActivity" >
+
+    <Button
+        android:id="@+id/startServiceBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="160dp"
+		android:textSize="15dp" 
+        android:text="@string/startService" /> 
+
+    <Button
+        android:id="@+id/stopServiceBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="160dp"
+		android:textSize="15dp" 
+        android:text="@string/stopService" />
+    
+    <Button
+        android:id="@+id/viewOrderBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+		android:textSize="15dp" 
+       android:width="160dp"
+        android:text="@string/viewOrder" />
+    <Button
+        android:id="@+id/viewMenuCardBtn"
+        android:layout_height="wrap_content"
+		android:textSize="15dp" 
+        android:layout_gravity="center"
+        android:width="160dp"
+        android:text="@string/viewMenuCard" />
+    <Button
+        android:id="@+id/viewHistoryBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:textSize="15dp" 
+        android:layout_gravity="center"
+        android:width="160dp"
+        android:text="@string/viewHistory" />
+    
+    <Button
+        android:id="@+id/viewCustomerBtn"
+        android:layout_width="fill_parent"
+		android:textSize="15dp" 
+        android:layout_height="wrap_content"
+        android:width="160dp"
+        android:layout_gravity="center"
+        android:text="@string/viewCustomer" />
+
+              
+	<TextView 
+	       	android:id="@+id/dispView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:width="160dp" 
+	  	    android:text="@string/dispView" />  	 	  	    
+		  	        
+</GridLayout>
+
+ 	       
+	  	<ScrollView 
+	  	android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+ 	   android:scrollbars="horizontal|vertical">
+	       <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	       	   android:layout_width="fill_parent"
+   			   android:layout_height="fill_parent"
+	           android:stretchColumns="0,1"
+	           android:id="@+id/tableView" >
+	       </TableLayout>
+	   </ScrollView>
+	
+<!-- 
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_column="0"
+        android:layour_row=10
+        android:layout_gravity="start"
+        android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+        >
+	  	    
+	  	<ScrollView 
+	  	android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+	   android:scrollbars="none">
+	       <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	       	   android:layout_width="fill_parent"
+   			   android:layout_height="fill_parent"
+	           android:stretchColumns="0,1"
+	           android:id="@+id/tableView" >
+	       </TableLayout>
+	   </ScrollView>
+	   
+    </FrameLayout> 
+ -->    
+</LinearLayout>
+
+ 

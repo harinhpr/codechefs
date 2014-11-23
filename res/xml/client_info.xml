@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Order table schema -->
+<clientItems>
+    <clientList>
+		<client Mobile="9880533533" Name="Sakthi" Address="KasturiNagar." Orders="2" Preferred="open"/>
+		<client Mobile="9008790756" Name="Harsha" Address="HAL Airport" Orders="17" Preferred="yes"/>
+		<client Mobile="9886784564" Name="Hari" Address="EGL IBM" Orders="1" Preferred="no"/>        
+		</clientList>
+</clientItems>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmsTechathon</string>
+    <string name="action_settings">Settings</string>
+	<string name="startService">Start</string>
+	<string name="stopService">Stop</string>
+	<string name="viewOrder">Order</string>
+	<string name="viewMenuCard">Menu Card</string>
+	<string name="viewHistory">History</string>
+	<string name="viewCustomer">Customers</string>	
+	<string name="dispView"></string>
+	<string name="tableView"></string>
+	
+</resources>
